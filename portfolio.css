@@ -1,0 +1,68 @@
+
+a.card-realisations::before {
+    background-image: url(assets/realisation.jpg);
+}
+
+a.card-veilles::before {
+    background-image: url(assets/veille_technologique.png);
+}
+
+a.card-cv::before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    background-image: url(assets/cv_nael.jpg);
+    filter: brightness(60%);
+    width: 100%; 
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    transition: filter .2s linear;
+}
+
+a.card-player::before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    background-image: url(assets/PLAYER.jpg);
+    filter: brightness(60%);
+    width: 100%; 
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    transition: filter .2s linear;
+    
+}
+
+a.card-badminton::before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    background-image: url(assets/badminton.jpg);
+    filter: brightness(60%);
+    width: 100%; 
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    transition: filter .2s linear;
+}
+
+a.card-pelote::before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    background-image: url(assets/pelote.jpg);
+    filter: brightness(60%);
+    width: 100%; 
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    transition: filter .2s linear;
+}
+
+
+
